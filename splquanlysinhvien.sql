@@ -1,3 +1,4 @@
+CREATE DATABASE studentdb;
 CREATE TABLE `student` (
   `StdId` int(5) NOT NULL,
   `StdFirstName` varchar(15) NOT NULL,
