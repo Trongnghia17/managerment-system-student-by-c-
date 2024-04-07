@@ -23,3 +23,5 @@ D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.ManageCourseFo
 D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.ScoreForm.resources
 D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.ManageScoreForm.resources
 D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.LoginForm.resources
+D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.ManagePointTraining.resources
+D:\C# .NET\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.PointTrainingForm.resources

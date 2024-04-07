@@ -38,7 +38,7 @@ namespace QuanLySinhVien
         {
             if (textBox_usrname.Text == "" || textBox_password.Text == "")
             {
-                MessageBox.Show("Need login data", "Wrong Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cần dữ liệu đăng nhập", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -55,9 +55,14 @@ namespace QuanLySinhVien
                 }
                 else
                 {
-                    MessageBox.Show("Your username and password are not exists", "Wrong Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Mật khẩu và tên đăng nhập không tồn tại", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

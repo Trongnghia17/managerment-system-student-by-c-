@@ -29,8 +29,11 @@
         private void InitializeComponent()
         {
             this.panel_logo = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel_main = new System.Windows.Forms.Panel();
             this.panel_cover = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label_cfemale = new System.Windows.Forms.Label();
@@ -40,6 +43,7 @@
             this.label_maleStd = new System.Windows.Forms.Label();
             this.label_totalStd = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_role = new System.Windows.Forms.Label();
             this.label_user = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,8 +51,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel_slide = new System.Windows.Forms.Panel();
-            this.button_exit = new System.Windows.Forms.Button();
-            this.button_dashboard = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.panel_pointtrainingSubmenu = new System.Windows.Forms.Panel();
+            this.button_magagerpointtraining = new System.Windows.Forms.Button();
+            this.button_newpointtraining = new System.Windows.Forms.Button();
+            this.button_pointtraining = new System.Windows.Forms.Button();
             this.panel_scoreSubmenu = new System.Windows.Forms.Panel();
             this.button_manageScore = new System.Windows.Forms.Button();
             this.button_newScore = new System.Windows.Forms.Button();
@@ -61,24 +69,21 @@
             this.button_manageStd = new System.Windows.Forms.Button();
             this.button_registration = new System.Windows.Forms.Button();
             this.button_std = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel_logo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel_main.SuspendLayout();
             this.panel_cover.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel_slide.SuspendLayout();
+            this.panel_pointtrainingSubmenu.SuspendLayout();
             this.panel_scoreSubmenu.SuspendLayout();
             this.panel_courseSubmenu.SuspendLayout();
             this.panel_stdsubmenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_logo
@@ -90,6 +95,16 @@
             this.panel_logo.Name = "panel_logo";
             this.panel_logo.Size = new System.Drawing.Size(194, 141);
             this.panel_logo.TabIndex = 0;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::QuanLySinhVien.Properties.Resources.Logo_HAU;
+            this.pictureBox3.Location = new System.Drawing.Point(-21, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(215, 141);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
             // 
             // panel_main
             // 
@@ -112,6 +127,29 @@
             this.panel_cover.Name = "panel_cover";
             this.panel_cover.Size = new System.Drawing.Size(917, 603);
             this.panel_cover.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.Image = global::QuanLySinhVien.Properties.Resources._488264_3152789397168_1758764766_n1;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 147);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(911, 358);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Location = new System.Drawing.Point(-9, 139);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(934, 372);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
             // panel3
             // 
@@ -225,6 +263,17 @@
             this.panel2.Size = new System.Drawing.Size(917, 72);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox1.Image = global::QuanLySinhVien.Properties.Resources.student;
+            this.pictureBox1.Location = new System.Drawing.Point(815, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 66);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // label_role
             // 
             this.label_role.AutoSize = true;
@@ -294,8 +343,10 @@
             // 
             this.panel_slide.AutoScroll = true;
             this.panel_slide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.panel_slide.Controls.Add(this.button_exit);
-            this.panel_slide.Controls.Add(this.button_dashboard);
+            this.panel_slide.Controls.Add(this.button5);
+            this.panel_slide.Controls.Add(this.button4);
+            this.panel_slide.Controls.Add(this.panel_pointtrainingSubmenu);
+            this.panel_slide.Controls.Add(this.button_pointtraining);
             this.panel_slide.Controls.Add(this.panel_scoreSubmenu);
             this.panel_slide.Controls.Add(this.button_score);
             this.panel_slide.Controls.Add(this.panel_courseSubmenu);
@@ -310,41 +361,104 @@
             this.panel_slide.Size = new System.Drawing.Size(215, 603);
             this.panel_slide.TabIndex = 2;
             // 
-            // button_exit
+            // button5
             // 
-            this.button_exit.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_exit.FlatAppearance.BorderSize = 0;
-            this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_exit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button_exit.ForeColor = System.Drawing.Color.White;
-            this.button_exit.Location = new System.Drawing.Point(0, 662);
-            this.button_exit.Margin = new System.Windows.Forms.Padding(5);
-            this.button_exit.Name = "button_exit";
-            this.button_exit.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button_exit.Size = new System.Drawing.Size(194, 55);
-            this.button_exit.TabIndex = 8;
-            this.button_exit.Text = "Thoát";
-            this.button_exit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_exit.UseVisualStyleBackColor = true;
-            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 816);
+            this.button5.Margin = new System.Windows.Forms.Padding(5);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(194, 54);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Thoát";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
-            // button_dashboard
+            // button4
             // 
-            this.button_dashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_dashboard.FlatAppearance.BorderSize = 0;
-            this.button_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_dashboard.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button_dashboard.ForeColor = System.Drawing.Color.White;
-            this.button_dashboard.Location = new System.Drawing.Point(0, 607);
-            this.button_dashboard.Margin = new System.Windows.Forms.Padding(5);
-            this.button_dashboard.Name = "button_dashboard";
-            this.button_dashboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button_dashboard.Size = new System.Drawing.Size(194, 55);
-            this.button_dashboard.TabIndex = 7;
-            this.button_dashboard.Text = "Tổng quan";
-            this.button_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_dashboard.UseVisualStyleBackColor = true;
-            this.button_dashboard.Click += new System.EventHandler(this.button_dashboard_Click);
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(0, 761);
+            this.button4.Margin = new System.Windows.Forms.Padding(5);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(194, 55);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Tổng quan";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
+            // panel_pointtrainingSubmenu
+            // 
+            this.panel_pointtrainingSubmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(200)))));
+            this.panel_pointtrainingSubmenu.Controls.Add(this.button_magagerpointtraining);
+            this.panel_pointtrainingSubmenu.Controls.Add(this.button_newpointtraining);
+            this.panel_pointtrainingSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_pointtrainingSubmenu.Location = new System.Drawing.Point(0, 662);
+            this.panel_pointtrainingSubmenu.Name = "panel_pointtrainingSubmenu";
+            this.panel_pointtrainingSubmenu.Size = new System.Drawing.Size(194, 99);
+            this.panel_pointtrainingSubmenu.TabIndex = 10;
+            // 
+            // button_magagerpointtraining
+            // 
+            this.button_magagerpointtraining.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_magagerpointtraining.FlatAppearance.BorderSize = 0;
+            this.button_magagerpointtraining.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_magagerpointtraining.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button_magagerpointtraining.ForeColor = System.Drawing.Color.White;
+            this.button_magagerpointtraining.Location = new System.Drawing.Point(0, 50);
+            this.button_magagerpointtraining.Name = "button_magagerpointtraining";
+            this.button_magagerpointtraining.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button_magagerpointtraining.Size = new System.Drawing.Size(194, 50);
+            this.button_magagerpointtraining.TabIndex = 1;
+            this.button_magagerpointtraining.Text = "QL điểm rèn luyện";
+            this.button_magagerpointtraining.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_magagerpointtraining.UseVisualStyleBackColor = true;
+            this.button_magagerpointtraining.Click += new System.EventHandler(this.button_magagerpointtraining_Click);
+            // 
+            // button_newpointtraining
+            // 
+            this.button_newpointtraining.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_newpointtraining.FlatAppearance.BorderSize = 0;
+            this.button_newpointtraining.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_newpointtraining.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button_newpointtraining.ForeColor = System.Drawing.Color.White;
+            this.button_newpointtraining.Location = new System.Drawing.Point(0, 0);
+            this.button_newpointtraining.Name = "button_newpointtraining";
+            this.button_newpointtraining.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button_newpointtraining.Size = new System.Drawing.Size(194, 50);
+            this.button_newpointtraining.TabIndex = 0;
+            this.button_newpointtraining.Text = "Điểm rèn luyện";
+            this.button_newpointtraining.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_newpointtraining.UseVisualStyleBackColor = true;
+            this.button_newpointtraining.Click += new System.EventHandler(this.button_newpointtraining_Click);
+            // 
+            // button_pointtraining
+            // 
+            this.button_pointtraining.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_pointtraining.FlatAppearance.BorderSize = 0;
+            this.button_pointtraining.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_pointtraining.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button_pointtraining.ForeColor = System.Drawing.Color.White;
+            this.button_pointtraining.Location = new System.Drawing.Point(0, 607);
+            this.button_pointtraining.Margin = new System.Windows.Forms.Padding(5);
+            this.button_pointtraining.Name = "button_pointtraining";
+            this.button_pointtraining.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button_pointtraining.Size = new System.Drawing.Size(194, 55);
+            this.button_pointtraining.TabIndex = 9;
+            this.button_pointtraining.Text = "Điểm rèn luyện";
+            this.button_pointtraining.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_pointtraining.UseVisualStyleBackColor = true;
+            this.button_pointtraining.Click += new System.EventHandler(this.button_pointtraining_Click);
             // 
             // panel_scoreSubmenu
             // 
@@ -535,50 +649,6 @@
             this.button_std.UseVisualStyleBackColor = true;
             this.button_std.Click += new System.EventHandler(this.button_std_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Image = global::QuanLySinhVien.Properties.Resources._488264_3152789397168_1758764766_n1;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 147);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(911, 358);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Location = new System.Drawing.Point(-9, 139);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(934, 372);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pictureBox1.Image = global::QuanLySinhVien.Properties.Resources.student;
-            this.pictureBox1.Location = new System.Drawing.Point(815, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 66);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::QuanLySinhVien.Properties.Resources.Logo_HAU;
-            this.pictureBox3.Location = new System.Drawing.Point(-21, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(215, 141);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -590,22 +660,23 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel_logo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel_main.ResumeLayout(false);
             this.panel_cover.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel_slide.ResumeLayout(false);
+            this.panel_pointtrainingSubmenu.ResumeLayout(false);
             this.panel_scoreSubmenu.ResumeLayout(false);
             this.panel_courseSubmenu.ResumeLayout(false);
             this.panel_stdsubmenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -634,8 +705,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel_slide;
-        private System.Windows.Forms.Button button_exit;
-        private System.Windows.Forms.Button button_dashboard;
         private System.Windows.Forms.Panel panel_scoreSubmenu;
         private System.Windows.Forms.Button button_manageScore;
         private System.Windows.Forms.Button button_newScore;
@@ -649,6 +718,12 @@
         private System.Windows.Forms.Button button_registration;
         private System.Windows.Forms.Button button_std;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel_pointtrainingSubmenu;
+        private System.Windows.Forms.Button button_magagerpointtraining;
+        private System.Windows.Forms.Button button_newpointtraining;
+        private System.Windows.Forms.Button button_pointtraining;
     }
 }
 

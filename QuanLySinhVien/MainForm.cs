@@ -39,6 +39,8 @@ namespace QuanLySinhVien
             panel_stdsubmenu.Visible = false;
             panel_courseSubmenu.Visible = false;
             panel_scoreSubmenu.Visible = false;
+            panel_pointtrainingSubmenu.Visible = false;
+       
 
         }
 
@@ -50,6 +52,8 @@ namespace QuanLySinhVien
                 panel_courseSubmenu.Visible = false;
             if (panel_scoreSubmenu.Visible == true)
                 panel_scoreSubmenu.Visible = false;
+            if (panel_pointtrainingSubmenu.Visible == true)
+                panel_pointtrainingSubmenu.Visible = false;
         }
 
         private void showSubmenu(Panel submenu)
@@ -128,7 +132,17 @@ namespace QuanLySinhVien
 
         }
 
-        private void button_dashboard_Click(object sender, EventArgs e)
+   
+
+        private void comboBox_course_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label_cmale.Text = "Nam : " + student.exeCount("SELECT COUNT(*) FROM student INNER JOIN score ON score.StudentId = student.StdId WHERE score.CourseName = '" + comboBox_course.Text + "' AND student.Gender = 'Nam'");
+            label_cfemale.Text = "Nữ : " + student.exeCount("SELECT COUNT(*) FROM student INNER JOIN score ON score.StudentId = student.StdId WHERE score.CourseName = '" + comboBox_course.Text + "' AND student.Gender = 'Nữ'");
+        }
+
+       
+
+        private void button4_Click_1(object sender, EventArgs e)
         {
             if (activeForm != null)
                 activeForm.Close();
@@ -136,17 +150,28 @@ namespace QuanLySinhVien
             studentCount();
         }
 
-        private void button_exit_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             LoginForm login = new LoginForm();
             this.Hide();
             login.Show();
         }
 
-        private void comboBox_course_SelectedIndexChanged(object sender, EventArgs e)
+        private void button_pointtraining_Click(object sender, EventArgs e)
         {
-            label_cmale.Text = "Nam : " + student.exeCount("SELECT COUNT(*) FROM student INNER JOIN score ON score.StudentId = student.StdId WHERE score.CourseName = '" + comboBox_course.Text + "' AND student.Gender = 'Nam'");
-            label_cfemale.Text = "Nữ : " + student.exeCount("SELECT COUNT(*) FROM student INNER JOIN score ON score.StudentId = student.StdId WHERE score.CourseName = '" + comboBox_course.Text + "' AND student.Gender = 'Nữ'");
+            showSubmenu(panel_pointtrainingSubmenu);
+        }
+
+        private void button_newpointtraining_Click(object sender, EventArgs e)
+        {
+            openChildForm(new PointTrainingForm());
+            hideSubmenu();
+        }
+
+        private void button_magagerpointtraining_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ManagePointTraining());
+            hideSubmenu();
         }
     }
 }

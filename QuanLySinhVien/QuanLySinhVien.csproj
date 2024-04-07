@@ -82,6 +82,12 @@
     <Compile Include="ManageCourseForm.Designer.cs">
       <DependentUpon>ManageCourseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagePointTraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePointTraining.Designer.cs">
+      <DependentUpon>ManagePointTraining.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageScoreForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,13 @@
     <Compile Include="ManageStudentForm.Designer.cs">
       <DependentUpon>ManageStudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PointTrainingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointTrainingForm.Designer.cs">
+      <DependentUpon>PointTrainingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointTrainingClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterForm.cs">
@@ -122,11 +135,17 @@
     <EmbeddedResource Include="ManageCourseForm.resx">
       <DependentUpon>ManageCourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManagePointTraining.resx">
+      <DependentUpon>ManagePointTraining.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageScoreForm.resx">
       <DependentUpon>ManageScoreForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageStudentForm.resx">
       <DependentUpon>ManageStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointTrainingForm.resx">
+      <DependentUpon>PointTrainingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
