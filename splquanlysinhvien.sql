@@ -31,6 +31,17 @@ CREATE TABLE `user` (
   `password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+CREATE TABLE `pointtraining` (
+  `StudentId` int(5) NOT NULL,
+  `PointTraining` double NOT NULL,
+  `Description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `pointtraining`
+  ADD PRIMARY KEY (`StudentId`);
+ALTER TABLE `pointtraining`
+  MODIFY `StudentId` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+COMMIT;
 
 INSERT INTO `user` (`userid`, `username`, `password`) VALUES
 (0, 'Admin', '123456');
