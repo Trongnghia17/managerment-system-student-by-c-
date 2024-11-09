@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\QuanLySinhVien"
+    "\\QuanLySinhVien",
+    "\\QuanLySinhVien\\Resources"
   ],
-  "SelectedNode": "\\QuanLySinhVien\\StudentClass.cs",
+  "SelectedNode": "\\QuanLySinhVien\\DBconnect.cs",
   "PreviewInSolutionExplorer": false
 }
